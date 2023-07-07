@@ -39,6 +39,24 @@ make
 
 4. Follow the instructions displayed in the program to select and execute algorithms.
 
+## File Processing
+
+The program also supports file processing. You can provide an input file containing algorithm selection(s), and the program will execute the selected algorithms automatically. Here's how to use file processing:
+
+Create an input file (e.g., input.txt) and specify the algorithm selections. Each line should contain a single number corresponding to the algorithm's number (e.g., 3 for Prim's Algorithm)
+
+1
+
+3
+
+5
+
+Run the program with the input file:
+
+`./bin/algorithm_program < input.txt`
+
+The program will execute the selected algorithms sequentially and display their names.
+
 ## Directory Structure
 
 ```lua
